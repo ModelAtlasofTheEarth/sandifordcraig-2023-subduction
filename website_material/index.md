@@ -190,7 +190,7 @@ model_files:
     in the associated publication as well as the `model_code_inputs/README.md` directory.
   file_tree: ''
   existing_identifier: https://github.com/dansand/subduction_GJI2022
-  nci_file_path:
+  nci_file_path: 
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
   include: true
 dataset:
@@ -213,7 +213,7 @@ dataset:
     used to track the 2-km-thick weak entrained layer that facilitates the plate interface
     decoupling zone."
   existing_identifier: ''
-  nci_file_path:
+  nci_file_path: 
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
   include: true
 metadataFile: ro-crate-metadata.json
