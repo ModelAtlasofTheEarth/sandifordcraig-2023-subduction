@@ -154,7 +154,7 @@ images:
       show convergence rates at 5 Myr into the simulation. Inset panels show details
       of the adaptive mesh refinement during the simulation.
 animation:
-  src: ./graphics/animation
+  src: ./graphics/animation.ogv
   caption: 'Animation shows the model domain at 2x vertical exaggeration. The scalar
     field is the effective strain rate, i.e. $\dot\epsilon_{II} =  \sqrt{J2} = \sqrt{0.5(\dot\epsilon_{i,j}:
     \epsilon_{i,j})}$. Upper panel shows the evolution of the model topography (a
@@ -188,7 +188,7 @@ model_files:
     in the associated publication as well as the `model_code_inputs/README.md` directory.
   file_tree: ''
   existing_identifier: https://github.com/dansand/subduction_GJI2022
-  nci_file_path: 
+  nci_file_path:
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
   include: true
 dataset:
@@ -211,7 +211,7 @@ dataset:
     used to track the 2-km-thick weak entrained layer that facilitates the plate interface
     decoupling zone."
   existing_identifier: ''
-  nci_file_path: 
+  nci_file_path:
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
   include: true
 metadataFile: ro-crate-metadata.json
