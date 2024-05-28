@@ -119,7 +119,7 @@ Caption: Downdip component of strain rate tensor and resolved stress difference 
 **Animation:**  
 
 Filename: [animation](https://github.com/ModelAtlasofTheEarth/model_submission/assets/10967872/f9e647c5-3341-400c-bac3-d5546f1d7226)  
-Caption: Animation shows the model domain at 2x vertical exaggeration. The scalar field is the effective strain rate, i.e. $\dot\epsilon_{II} =  \sqrt{J2} = \sqrt{0.5(\dot\epsilon_{i,j}: \epsilon_{i,j})}$. Upper panel shows the evolution of the model topography (a true free surface). The topographic profile reveals the long-wavelength isostatic thermal subsidence, as well as the flexural topography associated with the subduction zone. The model exhibits a very short-wavelength instability in the free surface of the over-riding plate, which begins approximately 3 Ma after the start of the simulation.  
+Caption: Animation shows the model domain at 2x vertical exaggeration. The scalar field is the effective strain rate, i.e. $\dot\epsilon_{II} =  \sqrt{J2} = \sqrt{0.5(\dot\epsilon_{i,j}:\dot\epsilon_{i,j})}$. Upper panel shows the evolution of the model topography (a true free surface). The topographic profile reveals the long-wavelength isostatic thermal subsidence, as well as the flexural topography associated with the subduction zone. The model exhibits a very short-wavelength instability in the free surface of the over-riding plate, which begins approximately 3 Ma after the start of the simulation.  
   
 **Graphic abstract:**  
 

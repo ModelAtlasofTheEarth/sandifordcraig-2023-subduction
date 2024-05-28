@@ -6,7 +6,7 @@ Topic category*,geoscientificInformation
 Field of research (FOR)*,https://linked.data.gov.au/def/anzsrc-for/2020/370401
 License*,Creative Commons Attribution 4.0 International
 Dataset lineage information*,"Tectonic plates are recycled into the mantle through subduction, where they bend and deform in various ways, such as brittle failure. This process creates deep sea trenches and results in characteristic earthquake patterns and gravity anomalies. In this study, we used a numerical model to investigate plate bending dynamics, complementing simpler approaches like flexural yield strength envelopes. We focused on the competition between bending stress and sources of net in-plane stress, such as slab pull, which influences the plate's neutral plane depth. It is difficult to reconcile the 'apparent' neutral plane depth with a net slab pull force greater than about 2 TN/m. Deviatoric compression in subducting plates more easily explains reverse earthquakes at depths of 20-50 km in the bending plate."
-Dataset format*,
+Dataset format*, ".vtu, .pvd, plain text"
 Dataset status,None
 Maintenance frequency*,as needed
 Temporal extents* (if applicable),
