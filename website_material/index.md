@@ -8,9 +8,11 @@ for_codes:
   - 370401
 status:
   - None
-doi: ''
+doi: https://doi.org/10.25914/t13d-0r63
 url: https://mate.science//models/sandifordcraig-2023-subduction
-creditText: ''
+creditText: Sandiford, D., & Craig, T. (2024). Plate bending earthquakes and the strength
+  distribution of the lithosphere [Data set]. AuScope, National Computational Infrastructure.
+  https://doi.org/t13d-0r63
 software:
   - name: ASPECT v2.4.0
     doi: https://doi.org/10.5281/zenodo.6903424
@@ -188,7 +190,7 @@ model_files:
     in the associated publication as well as the `model_code_inputs/README.md` directory.
   file_tree: ''
   existing_identifier: https://github.com/dansand/subduction_GJI2022
-  nci_file_path:
+  nci_file_path: 
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
   include: true
 dataset:
@@ -211,7 +213,7 @@ dataset:
     used to track the 2-km-thick weak entrained layer that facilitates the plate interface
     decoupling zone."
   existing_identifier: ''
-  nci_file_path:
+  nci_file_path: 
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
   include: true
 metadataFile: ro-crate-metadata.json
