@@ -12,11 +12,11 @@ doi: https://doi.org/10.25914/t13d-0r63
 url: https://mate.science//models/sandifordcraig-2023-subduction
 creditText: Sandiford, D., & Craig, T. (2024). Plate bending earthquakes and the strength
   distribution of the lithosphere [Data set]. AuScope, National Computational Infrastructure.
-  https://doi.org/t13d-0r63
+  https://doi.org/10.25914/t13d-0r63
 software:
-  - name: ASPECT v2.4.0
-    doi: https://doi.org/10.5281/zenodo.6903424
-    url_source: https://github.com/geodynamics/aspect
+  name: ASPECT v2.4.0
+  doi: https://doi.org/10.5281/zenodo.6903424
+  url_source: https://github.com/geodynamics/aspect
 licence:
   licence_url: https://creativecommons.org/licenses/by/4.0/legalcode
   licence_image: ../../../img/licence/by.png
@@ -34,29 +34,17 @@ creators:
     family_name: Craig
     ORCID: 0000-0003-2198-9172
 associated_publication:
-  authors:
-    - '@type': Person
-      '@id': http://orcid.org/0000-0002-2207-6837
-      givenName: Dan
-      familyName: Sandiford
-      affiliation:
-        - '@type': Organization
-          name: School of Earth, Atmosphere and Environment, Monash University , Melbourne,
-            VIC 3800, Australia (formerly)
-    - '@type': Person
-      '@id': http://orcid.org/0000-0003-2198-9172
-      givenName: Timothy J
-      familyName: Craig
-      affiliation:
-        - '@type': Organization
-          name: COMET, Institute of Geophysics and Tectonics, School of Earth and
-            Environment, University of Leeds , Leeds LS29JT, UK
   title: Plate bending earthquakes and the strength distribution of the lithosphere
-  doi: http://dx.doi.org/10.1093/gji/ggad230
-  url: ''
-  journal: Geophysical Journal International
+  url: http://dx.doi.org/10.1093/gji/ggad230
+  doi: 10.1093/gji/ggad230
   publisher: Oxford University Press (OUP)
+  journal: Geophysical Journal International
   date: 2023-5-27
+  authors:
+    - name: Dan
+      family_name: Sandiford
+    - name: Timothy J
+      family_name: Craig
 compute_info:
   name: Gadi Supercomputer
   organisation: National Computational Infrastructure
@@ -159,14 +147,14 @@ animation:
   src: ./graphics/animation.ogv
   caption: 'Animation shows the model domain at 2x vertical exaggeration. The scalar
     field is the effective strain rate, i.e. $\dot\epsilon_{II} =  \sqrt{J2} = \sqrt{0.5(\dot\epsilon_{i,j}:
-    \epsilon_{i,j})}$. Upper panel shows the evolution of the model topography (a
+    \dot\epsilon_{i,j})}$. Upper panel shows the evolution of the model topography (a
     true free surface). The topographic profile reveals the long-wavelength isostatic
     thermal subsidence, as well as the flexural topography associated with the subduction
     zone. The model exhibits a very short-wavelength instability in the free surface
     of the over-riding plate, which begins approximately 3 Ma after the start of the
     simulation.'
 model_setup_info:
-  url: ''
+  url:
   summary: The subduction model comprises a rectangular domain with a depth of 2900
     km, and an aspect ratio of 4. The initial conditions comprise an adiabatic mantle
     with a potential temperature of 1350 C and two plates, whose age and thermal structure
@@ -182,19 +170,21 @@ model_setup_info:
     on the top of the subducting plate, as well as between the subducting slab and
     upper plate. This composition has a low coefficient of friction, providing a shear
     stress that varies between between about 10 - 20 MPa throughout the plate interface
-    domain. See the included model input file (.prm) for further details.
+    domain. The model has free-slip velocity boundary conditions on the sidewalls and base,
+    and a true free surface. The temperature field has fixed values on the top and base, while
+    zero-flux is imposed on the sidewalls. See the included model input file (.prm) for further details.
 model_files:
-  url: ''
+  url:
   notes: Model setup is provided by an ASPECT input file and a WorldBuilder file (https://github.com/GeodynamicWorldBuilder/WorldBuilder).
     Minor modifications to the ASPECT source code were implemented and are discussed
     in the associated publication as well as the `model_code_inputs/README.md` directory.
-  file_tree: ''
+  file_tree:
   existing_identifier: https://github.com/dansand/subduction_GJI2022
-  nci_file_path: 
+  nci_file_path:
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
   include: true
 dataset:
-  url: ''
+  url:
   notes: "Computations were done using the ASPECT code version 2.4.0. ASPECT output
     data from 2 simulations are included with this model. The reference model is the
     same model setup/data described in Sandiford and Craig, (2023). An alternative
@@ -212,8 +202,8 @@ dataset:
     -  particle information stored as .vtu files (16 per timestep). Particles were
     used to track the 2-km-thick weak entrained layer that facilitates the plate interface
     decoupling zone."
-  existing_identifier: ''
-  nci_file_path: 
+  existing_identifier:
+  nci_file_path:
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
   include: true
 metadataFile: ro-crate-metadata.json
