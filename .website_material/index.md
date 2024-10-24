@@ -201,7 +201,7 @@ dataset:
     Quantities generally have SI units. Velocities are output as meters/year. \r\n\
     -  particle information stored as .vtu files (16 per timestep). Particles were
     used to track the 2-km-thick weak entrained layer that facilitates the plate interface
-    decoupling zone."
+    decoupling zone"
   existing_identifier:
   nci_file_path:
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/sandifordcraig-2023-subduction/catalog.html
